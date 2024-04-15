@@ -1,0 +1,164 @@
+ros-humble-omni-base-bringup (2.0.9-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Thu, 11 Apr 2024 00:00:00 -0000
+
+ros-humble-omni-base-bringup (2.0.8-1jammy) jammy; urgency=high
+
+  * Merge branch 'feat/enable-dlo-sim' into 'humble-devel'
+    enable odom_tf gazebo only in public sim and laser noise fix
+    See merge request robots/omni_base_robot!20
+  * enable odom_tf gazebo only in public sim and laser noise fix
+  * Contributors: andreacapodacqua
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Wed, 10 Apr 2024 00:00:00 -0000
+
+ros-humble-omni-base-bringup (2.0.7-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Wed, 10 Apr 2024 00:00:00 -0000
+
+ros-humble-omni-base-bringup (2.0.6-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Thu, 14 Mar 2024 00:00:00 -0000
+
+ros-humble-omni-base-bringup (2.0.5-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Wed, 06 Mar 2024 00:00:00 -0000
+
+ros-humble-omni-base-bringup (2.0.4-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Mon, 26 Feb 2024 00:00:00 -0000
+
+ros-humble-omni-base-bringup (2.0.3-1jammy) jammy; urgency=high
+
+  * Merge branch 'feat/register-components' into 'humble-devel'
+    removing need for remapping cmd_vel topic
+    See merge request robots/omni_base_robot!16
+  * removing need for remapping cmd_vel topic
+  * Contributors: antoniobrandi
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Fri, 02 Feb 2024 00:00:00 -0000
+
+ros-humble-omni-base-bringup (2.0.2-1jammy) jammy; urgency=high
+
+  * Merge branch 'fix/joystick-ros2' into 'humble-devel'
+    added y-axis movement joystick
+    See merge request robots/omni_base_robot!15
+  * added y-axis movement joystick
+  * Contributors: andreacapodacqua
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Fri, 15 Dec 2023 00:00:00 -0000
+
+ros-humble-omni-base-bringup (2.0.1-1jammy) jammy; urgency=high
+
+  * Merge branch 'fix/modules-ros2' into 'humble-devel'
+    fix modules
+    See merge request robots/omni_base_robot!14
+  * fix cmakelists
+  * fix modules
+  * Contributors: Noel Jimenez, andreacapodacqua
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Mon, 11 Dec 2023 00:00:00 -0000
+
+ros-humble-omni-base-bringup (2.0.0-1jammy) jammy; urgency=high
+
+  * Merge branch 'feat/module' into 'humble-devel'
+    Feat/module
+    See merge request robots/omni_base_robot!13
+  * fix deps
+  * fix dep
+  * split bringup module
+  * removed 2dnav dep
+  * update copyright
+  * omni_base ROS 2
+  * ROS 2 omni base robot
+  * add emergency brake priority
+  * disable controller and add TODO
+  * enable control(er) and 2dnav
+  * fix: Load gazebo_controller_manager_cfg.yaml and launch only omnibase stuff that is ready
+  * omnibase bringup to ROS 2:
+    + yaml
+    + launch.py
+  * omnibase bringup to colcon
+  * Contributors: YueErro, andreacapodacqua
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Wed, 22 Nov 2023 00:00:00 -0000
+
+ros-humble-omni-base-bringup (0.0.10-1jammy) jammy; urgency=high
+
+  * Merge branch 'fix/update-robot-state-publisher' into 'ferrum-devel'
+    fix robot_state_publisher type
+    See merge request robots/omni_base_robot!7
+  * fix robot_state_publisher type
+  * Contributors: josegarcia
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Tue, 27 Dec 2022 00:00:00 -0000
+
+ros-humble-omni-base-bringup (0.0.9-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Mon, 24 Oct 2022 00:00:00 -0000
+
+ros-humble-omni-base-bringup (0.0.8-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Tue, 16 Aug 2022 00:00:00 -0000
+
+ros-humble-omni-base-bringup (0.0.7-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Wed, 10 Aug 2022 00:00:00 -0000
+
+ros-humble-omni-base-bringup (0.0.6-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Fri, 17 Jun 2022 00:00:00 -0000
+
+ros-humble-omni-base-bringup (0.0.5-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Wed, 24 Nov 2021 00:00:00 -0000
+
+ros-humble-omni-base-bringup (0.0.4-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Thu, 04 Nov 2021 00:00:00 -0000
+
+ros-humble-omni-base-bringup (0.0.3-1jammy) jammy; urgency=high
+
+  * fixed iso error while calling launch files for bringup
+  * Contributors: antoniobrandi
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Tue, 05 Oct 2021 00:00:00 -0000
+
+ros-humble-omni-base-bringup (0.0.2-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Thu, 30 Sep 2021 00:00:00 -0000
+
+ros-humble-omni-base-bringup (0.0.1-1jammy) jammy; urgency=high
+
+  * preparing release changed version
+  * preparing release
+  * on of the urdf and completed controller configuration
+  * Contributors: antoniobrandi
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Thu, 30 Sep 2021 00:00:00 -0000
+
+
