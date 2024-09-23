@@ -1,0 +1,13 @@
+Source: ros-humble-omni-base-description
+Section: misc
+Priority: optional
+Maintainer: Yue Erro <yue.erro@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-auto, ros-humble-ament-cmake-python, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-launch-testing-ament-cmake <!nocheck>, ros-humble-urdf-test <!nocheck>, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-omni-base-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-gazebo-planar-move-plugin, ros-humble-joint-state-publisher-gui, ros-humble-launch, ros-humble-launch-pal, ros-humble-launch-param-builder, ros-humble-launch-ros, ros-humble-pal-urdf-utils, ros-humble-realsense2-description, ros-humble-rviz2, ros-humble-xacro, ros-humble-ros-workspace
+Description: This package contains the description (mechanical, kinematic, visual, etc.) of the omni_base robot.
+ The files in this package are parsed and used by a variety of other components. Most users will not interact directly with this package.
