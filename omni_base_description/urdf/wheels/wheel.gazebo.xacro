@@ -15,6 +15,7 @@
  -->
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
 
+  <!-- MACRO DEFINITION -->
   <xacro:macro name="wheel_gazebo" params="side">
     <!-- Contact model for the wheel surface -->
     <gazebo reference="wheel_${side}_link">
