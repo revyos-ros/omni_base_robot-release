@@ -2,6 +2,75 @@
 Changelog for package omni_base_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.4.0 (2024-09-04)
+------------------
+* Add slash to node names on parameter files
+* Contributors: Noel Jimenez
+
+2.3.0 (2024-08-29)
+------------------
+* use relay for cmd_vel message
+* Contributors: David ter Kuile
+
+2.2.0 (2024-08-08)
+------------------
+* start mobile_base_controller only for real robot
+* Contributors: antoniobrandi
+
+2.1.0 (2024-08-07)
+------------------
+
+2.0.19 (2024-07-09)
+-------------------
+* Add warning for pal_module_cmake not found
+* Contributors: Noel Jimenez
+
+2.0.18 (2024-07-01)
+-------------------
+
+2.0.17 (2024-06-28)
+-------------------
+* Merge branch 'dtk/add-on-module' into 'humble-devel'
+  Change rgbd sensors to add-on-module
+  See merge request robots/omni_base_robot!35
+* Change rgbd sensors to add-on-module
+* Contributors: David ter Kuile, davidterkuile
+
+2.0.16 (2024-06-26)
+-------------------
+* Merge branch 'dtk/move-robot-args' into 'humble-devel'
+  Dtk/move robot args
+  See merge request robots/omni_base_robot!34
+* Change import for launch args
+* Contributors: David ter Kuile, davidterkuile
+
+2.0.15 (2024-06-25)
+-------------------
+* Merge branch 'tpe/upate_std_and_launch_arg' into 'humble-devel'
+  Standardize urdf + update lauch args
+  See merge request robots/omni_base_robot!32
+* Update linters
+* Update arg name
+* Add public sim
+* Restructure luanch files omni_base_bringup
+* Update to joy_linux node
+* Contributors: David ter Kuile, davidterkuile
+
+2.0.14 (2024-06-13)
+-------------------
+
+2.0.13 (2024-06-03)
+-------------------
+
+2.0.12 (2024-06-03)
+-------------------
+
+2.0.11 (2024-05-21)
+-------------------
+
+2.0.10 (2024-04-18)
+-------------------
+
 2.0.9 (2024-04-11)
 ------------------
 
