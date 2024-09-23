@@ -2,6 +2,109 @@
 Changelog for package omni_base_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.4.0 (2024-09-04)
+------------------
+* Add slash to node names on parameter files
+* Contributors: Noel Jimenez
+
+2.3.0 (2024-08-29)
+------------------
+
+2.2.0 (2024-08-08)
+------------------
+
+2.1.0 (2024-08-07)
+------------------
+
+2.0.19 (2024-07-09)
+-------------------
+* Add warning for pal_module_cmake not found
+* Contributors: Noel Jimenez
+
+2.0.18 (2024-07-01)
+-------------------
+* Merge branch 'dtk/disable-rgbd-test' into 'humble-devel'
+  Disable realsense test
+  See merge request robots/omni_base_robot!36
+* Disable realsense test
+* Contributors: David ter Kuile, davidterkuile
+
+2.0.17 (2024-06-28)
+-------------------
+* Merge branch 'dtk/add-on-module' into 'humble-devel'
+  Change rgbd sensors to add-on-module
+  See merge request robots/omni_base_robot!35
+* Change rgbd sensors to add-on-module
+* Contributors: David ter Kuile, davidterkuile
+
+2.0.16 (2024-06-26)
+-------------------
+* Merge branch 'dtk/move-robot-args' into 'humble-devel'
+  Dtk/move robot args
+  See merge request robots/omni_base_robot!34
+* Change import for launch args
+* Contributors: David ter Kuile, davidterkuile
+
+2.0.15 (2024-06-25)
+-------------------
+* Merge branch 'tpe/upate_std_and_launch_arg' into 'humble-devel'
+  Standardize urdf + update lauch args
+  See merge request robots/omni_base_robot!32
+* Restructure gazebo urdf
+* Update linters
+* Add public sim
+* Remove colons from urdf to avoid crash of ros2 control gazebo
+* Update launch arguments omni_base_description
+* Update URDF structure
+* Fix argument + tests
+* Standardize urdf + update lauch args
+* Contributors: David ter Kuile, davidterkuile, thomas.peyrucain
+
+2.0.14 (2024-06-13)
+-------------------
+* Merge branch 'fix/robot_state_publisher' into 'humble-devel'
+  fix robot state publisher launch file
+  See merge request robots/omni_base_robot!33
+* specify robot description as string
+* fix robot state publisher launch file
+* Contributors: Aina, davidterkuile
+
+2.0.13 (2024-06-03)
+-------------------
+
+2.0.12 (2024-06-03)
+-------------------
+* Merge branch 'fix/aca/reduced-laser-noise' into 'humble-devel'
+  reduced laser_noise
+  See merge request robots/omni_base_robot!30
+* reduced laser_noise
+* Contributors: andreacapodacqua
+
+2.0.11 (2024-05-21)
+-------------------
+* Merge branch 'feat/aca/realsense-ros2' into 'humble-devel'
+  added realsense support
+  See merge request robots/omni_base_robot!28
+* Revert "swap camera names"
+  This reverts commit 10b11403fde04f52c57782ff8e30f3e92cd042cc.
+* swap camera names
+* removed simulation arg and fix use_nominal_extrinsic
+* added rgbd_sensors to module
+* added realsense support
+* Merge branch 'fix/is_public_sim_argument' into 'humble-devel'
+  add missing argument is_public_sim
+  See merge request robots/omni_base_robot!29
+* add missing argument is_public_sim
+* Contributors: Aina Irisarri, andreacapodacqua, davidterkuile
+
+2.0.10 (2024-04-18)
+-------------------
+* Merge branch 'fix/ros2-missing-deps' into 'humble-devel'
+  adding missing deps
+  See merge request robots/omni_base_robot!26
+* adding missing deps
+* Contributors: Noel Jimenez, andreacapodacqua
+
 2.0.9 (2024-04-11)
 ------------------
 * Merge branch 'omm/feat/planar_move_plugin' into 'humble-devel'
