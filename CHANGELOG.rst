@@ -2,6 +2,81 @@
 Changelog for package omni_base_controller_configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.4.0 (2024-09-04)
+------------------
+* Only relay cmd_vel topic in simulation
+* Contributors: David ter Kuile
+
+2.3.0 (2024-08-29)
+------------------
+* use relay for cmd_vel message
+* Refactor mobile base controller
+* Contributors: David ter Kuile
+
+2.2.0 (2024-08-08)
+------------------
+* Use unlesscondition
+* start mobile_base_controller only for real robot
+* Contributors: David ter Kuile, antoniobrandi
+
+2.1.0 (2024-08-07)
+------------------
+* Use controller_type from the controllers config
+* Remove use_stamped_vel parameter
+* Contributors: Noel Jimenez
+
+2.0.19 (2024-07-09)
+-------------------
+* Add warning for pal_module_cmake not found
+* Contributors: Noel Jimenez
+
+2.0.18 (2024-07-01)
+-------------------
+
+2.0.17 (2024-06-28)
+-------------------
+
+2.0.16 (2024-06-26)
+-------------------
+* Merge branch 'dtk/move-robot-args' into 'humble-devel'
+  Dtk/move robot args
+  See merge request robots/omni_base_robot!34
+* Change import for launch args
+* Contributors: David ter Kuile, davidterkuile
+
+2.0.15 (2024-06-25)
+-------------------
+* Merge branch 'tpe/upate_std_and_launch_arg' into 'humble-devel'
+  Standardize urdf + update lauch args
+  See merge request robots/omni_base_robot!32
+* Restructure gazebo urdf
+* Update linters
+* Add public sim
+* Fix base_controller type
+* Update URDF structure
+* Contributors: David ter Kuile, davidterkuile
+
+2.0.14 (2024-06-13)
+-------------------
+
+2.0.13 (2024-06-03)
+-------------------
+* Merge branch 'abr/fix/min-acc' into 'humble-devel'
+  added min acceleration parameters
+  See merge request robots/omni_base_robot!31
+* typo
+* added min acceleration parameters
+* Contributors: antoniobrandi
+
+2.0.12 (2024-06-03)
+-------------------
+
+2.0.11 (2024-05-21)
+-------------------
+
+2.0.10 (2024-04-18)
+-------------------
+
 2.0.9 (2024-04-11)
 ------------------
 * Merge branch 'dtk/fix/update-module-numbers' into 'humble-devel'

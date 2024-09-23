@@ -1,7 +1,6 @@
 mobile_base_controller:
   ros__parameters:
     type: omni_drive_controller/OmniDriveController
-    use_stamped_vel: False
     left_front_wheel  : 'wheel_front_left_joint'
     left_back_wheel  : 'wheel_rear_left_joint'
     right_front_wheel : 'wheel_front_right_joint'
@@ -47,6 +46,7 @@ mobile_base_controller:
         min_velocity           : -1.0 # m/s
         has_acceleration_limits: true
         max_acceleration       :  1.0 # m/s^2
+        min_acceleration       :  -1.0 # m/s^2
         has_jerk_limits        : false
         max_jerk               :  5.0 # m/s^3
       y:
@@ -55,6 +55,7 @@ mobile_base_controller:
         min_velocity           : -1.0 # m/s
         has_acceleration_limits: true
         max_acceleration       :  1.0 # m/s^2
+        min_acceleration       :  -1.0 # m/s^2
         has_jerk_limits        : false
         max_jerk               :  5.0 # m/s^3
     angular:
@@ -62,9 +63,10 @@ mobile_base_controller:
         has_velocity_limits    : true
         max_velocity           : 2.09 # 120.0º reduce pendulum effect
         has_acceleration_limits: true
-        max_acceleration       : 2.09 # 120.0º
+        max_acceleration       : 2.09 # 120.0º/s^2
+        min_acceleration       : -2.09 # 120.0º/s^2
         has_jerk_limits        : false
-        max_jerk               : 10.47 # 600.0º
+        max_jerk               : 10.47 # 600.0º/s^3
     space:
       xy:
         max_velocity           : 0.7
