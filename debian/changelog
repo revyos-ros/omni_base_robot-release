@@ -1,0 +1,210 @@
+ros-humble-omni-base-robot (2.4.0-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Tue, 03 Sep 2024 16:00:00 -0000
+
+ros-humble-omni-base-robot (2.3.0-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Wed, 28 Aug 2024 16:00:00 -0000
+
+ros-humble-omni-base-robot (2.2.0-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Wed, 07 Aug 2024 16:00:00 -0000
+
+ros-humble-omni-base-robot (2.1.0-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Tue, 06 Aug 2024 16:00:00 -0000
+
+ros-humble-omni-base-robot (2.0.19-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Mon, 08 Jul 2024 16:00:00 -0000
+
+ros-humble-omni-base-robot (2.0.18-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Sun, 30 Jun 2024 16:00:00 -0000
+
+ros-humble-omni-base-robot (2.0.17-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Thu, 27 Jun 2024 16:00:00 -0000
+
+ros-humble-omni-base-robot (2.0.16-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Tue, 25 Jun 2024 16:00:00 -0000
+
+ros-humble-omni-base-robot (2.0.15-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Mon, 24 Jun 2024 16:00:00 -0000
+
+ros-humble-omni-base-robot (2.0.14-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Wed, 12 Jun 2024 16:00:00 -0000
+
+ros-humble-omni-base-robot (2.0.13-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Sun, 02 Jun 2024 16:00:00 -0000
+
+ros-humble-omni-base-robot (2.0.12-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Sun, 02 Jun 2024 16:00:00 -0000
+
+ros-humble-omni-base-robot (2.0.11-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Mon, 20 May 2024 16:00:00 -0000
+
+ros-humble-omni-base-robot (2.0.10-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Wed, 17 Apr 2024 16:00:00 -0000
+
+ros-humble-omni-base-robot (2.0.9-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Wed, 10 Apr 2024 16:00:00 -0000
+
+ros-humble-omni-base-robot (2.0.8-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Tue, 09 Apr 2024 16:00:00 -0000
+
+ros-humble-omni-base-robot (2.0.7-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Tue, 09 Apr 2024 16:00:00 -0000
+
+ros-humble-omni-base-robot (2.0.6-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Wed, 13 Mar 2024 16:00:00 -0000
+
+ros-humble-omni-base-robot (2.0.5-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Tue, 05 Mar 2024 16:00:00 -0000
+
+ros-humble-omni-base-robot (2.0.4-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Sun, 25 Feb 2024 16:00:00 -0000
+
+ros-humble-omni-base-robot (2.0.3-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Thu, 01 Feb 2024 16:00:00 -0000
+
+ros-humble-omni-base-robot (2.0.2-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Thu, 14 Dec 2023 16:00:00 -0000
+
+ros-humble-omni-base-robot (2.0.1-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Sun, 10 Dec 2023 16:00:00 -0000
+
+ros-humble-omni-base-robot (2.0.0-1jammy) jammy; urgency=high
+
+  * omni_base ROS 2
+  * omnibase robot to colcon
+  * Contributors: YueErro, andreacapodacqua
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Tue, 21 Nov 2023 16:00:00 -0000
+
+ros-humble-omni-base-robot (0.0.10-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Mon, 26 Dec 2022 16:00:00 -0000
+
+ros-humble-omni-base-robot (0.0.9-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Sun, 23 Oct 2022 16:00:00 -0000
+
+ros-humble-omni-base-robot (0.0.8-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Mon, 15 Aug 2022 16:00:00 -0000
+
+ros-humble-omni-base-robot (0.0.7-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Tue, 09 Aug 2022 16:00:00 -0000
+
+ros-humble-omni-base-robot (0.0.6-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Thu, 16 Jun 2022 16:00:00 -0000
+
+ros-humble-omni-base-robot (0.0.5-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Tue, 23 Nov 2021 16:00:00 -0000
+
+ros-humble-omni-base-robot (0.0.4-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Wed, 03 Nov 2021 16:00:00 -0000
+
+ros-humble-omni-base-robot (0.0.3-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Mon, 04 Oct 2021 16:00:00 -0000
+
+ros-humble-omni-base-robot (0.0.2-1jammy) jammy; urgency=high
+
+
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Wed, 29 Sep 2021 16:00:00 -0000
+
+ros-humble-omni-base-robot (0.0.1-1jammy) jammy; urgency=high
+
+  * preparing release changed version
+  * preparing release
+  * on of the urdf and completed controller configuration
+  * Contributors: antoniobrandi
+
+ -- Yue Erro <yue.erro@pal-robotics.com>  Wed, 29 Sep 2021 16:00:00 -0000
+
+
