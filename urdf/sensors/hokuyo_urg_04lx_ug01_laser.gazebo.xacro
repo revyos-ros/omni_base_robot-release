@@ -16,6 +16,7 @@
  -->
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
 
+  <!-- MACRO DEFINITION -->
   <xacro:macro name="hokuyo_urg_04lx_ug01_laser_gazebo" params="name ros_topic update_rate min_angle max_angle">
     <gazebo reference="${name}_link">
       <sensor type="gpu_ray" name="${name}">

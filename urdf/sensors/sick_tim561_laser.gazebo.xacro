@@ -16,6 +16,7 @@
  -->
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
 
+  <!-- MACRO DEFINITION -->
   <xacro:macro name="sick_tim561_laser_gazebo" params="name ros_topic update_rate min_angle max_angle">
     <gazebo reference="${name}_link">
       <sensor type="gpu_ray" name="${name}">
@@ -40,7 +41,7 @@
           <noise>
             <type>gaussian</type>
             <mean>0.0</mean>
-            <stddev>0.06</stddev>
+            <stddev>0.01</stddev>
           </noise>
         </ray>
       	<plugin name="${name}" filename="libgazebo_ros_ray_sensor.so">
