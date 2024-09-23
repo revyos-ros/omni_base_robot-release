@@ -16,12 +16,12 @@
  -->
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
 
-  <xacro:property name="PI" value="3.1415926535897931" />
-
+  <!-- INCLUDES -->
   <xacro:include filename="$(find omni_base_description)/urdf/wheels/wheel.gazebo.xacro"/>
 
-  <!-- frontal_reflect: front: +1 and rear: -1 -->
-  <!-- sagital_reflect: right: +1 and left: -1 -->
+  <!-- MACRO DEFINITION -->
+  <!-- frontal_reflect = front = +1 and rear = -1 -->
+  <!-- sagital_reflect = right = +1 and left = -1 -->
   <xacro:macro name="wheel" params="side parent sagital_reflect frontal_reflect radius width torque velocity sagital_separation frontal_separation">
 
     <link name="suspension_${side}_link">
