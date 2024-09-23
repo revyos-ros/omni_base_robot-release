@@ -1,3 +1,4 @@
+release_repo_url: git@github.com:revyos-ros/omni_base_robot-release.git
 tracks:
   humble:
     actions:
