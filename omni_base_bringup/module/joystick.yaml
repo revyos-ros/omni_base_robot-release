@@ -1,2 +1,0 @@
-joystick:
-  launch: "omni_base_bringup joystick_teleop.launch.py"
