@@ -77,13 +77,7 @@
         <child link="virtual_${name}_laser_link"/>
         <origin xyz="0 0 ${laser_height}" rpy="0 0 0" />
     </joint>
-    <link name="virtual_${name}_laser_link">
-        <inertial>
-            <origin xyz="0 0 0" rpy="0 0 0"/>
-            <mass value="0.0001" />
-            <inertia ixx="0.0001"  ixy="0"  ixz="0" iyy="0.0001" iyz="0" izz="0.0001" />
-        </inertial>
-    </link>
+    <link name="virtual_${name}_laser_link"/>
 
     <!-- IMU -->
     <xacro:imu_sensor name="${name}_imu" parent="${name}_link" update_rate="100.0">
